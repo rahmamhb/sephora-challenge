@@ -1,7 +1,6 @@
 # Sephora France — Traffic Interception Research
 
-Analysis of `fr.sephora.sephorafrance` (v3.14.50) for the IMDEA Networks research challenge.
-Full methodology and findings are documented in [`report/report.tex`](report/report.tex).
+Analysis of `fr.sephora.sephorafrance` (v3.14.50) for a research challenge.
 
 ---
 
