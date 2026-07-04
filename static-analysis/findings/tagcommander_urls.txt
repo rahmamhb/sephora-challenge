@@ -1,0 +1,19 @@
+# TagCommander SDK — Hardcoded URLs
+# Source: com.tagcommander.lib.TCSDKConstants (JADX)
+
+static final String kTCServerSideURL = "https://serverside%d.tagcommander.com/%d/";
+static final String APPLICATION_ID   = "com.tagcommander.lib";
+
+# Source: com.tagcommander.lib.consent.TCConsent (JADX)
+
+private static final String IAB_BASE_URL  = "https://cdn.trustcommander.net/iab-v2/gvl-v3/...";
+private final String consentURL           = "https://privacy.trustcommander.net/privacy-consent/?tc...";
+
+# TCConfigurationFileFactory.getInstance().addConfigurationFile(TCCoreConstants.kTCVendorList...)
+# TCEventManager.getInstance().callOnHttpRequest("https://privacy.trustcommander.net/privac...")
+
+# Notes:
+# - TrustCommander is NOT a separate SDK; it is com.tagcommander.lib.consent subpackage
+# - TagCommander = Tag Management System (dynamically fires analytics/marketing tags)
+# - TrustCommander = GDPR/IAB TCF v2 consent manager (controls which tags are allowed to fire)
+# - Both cdn.tagcommander.com and trustcommander.net failed TLS interception

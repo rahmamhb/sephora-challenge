@@ -1,0 +1,1117 @@
+[19:22:07.594] HTTP(S) proxy listening at *:8083.
+[19:22:25.425][127.0.0.1:35080] client connect
+[19:22:25.504][127.0.0.1:35082] client connect
+[19:22:25.609][127.0.0.1:35080] server connect firebase-settings.crashlytics.com:443 (172.217.22.67:443)
+[19:22:25.610][127.0.0.1:35082] server connect firebaseinstallations.googleapis.com:443 (216.239.32.223:443)
+[19:22:25.856][127.0.0.1:35090] client connect
+[19:22:25.982][127.0.0.1:35106] client connect
+[19:22:26.111][127.0.0.1:35090] server connect api.8pus.io:443 (13.38.169.169:443)
+[19:22:26.115][127.0.0.1:35082] Client TLS handshake failed. The client does not trust the proxy's certificate for firebaseinstallations.googleapis.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:26.115][127.0.0.1:35080] Client TLS handshake failed. The client does not trust the proxy's certificate for firebase-settings.crashlytics.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:26.115][127.0.0.1:35082] client disconnect
+[19:22:26.116][127.0.0.1:35080] client disconnect
+[19:22:26.116][127.0.0.1:35082] server disconnect firebaseinstallations.googleapis.com:443 (216.239.32.223:443)
+[19:22:26.116][127.0.0.1:35080] server disconnect firebase-settings.crashlytics.com:443 (172.217.22.67:443)
+[19:22:26.116][127.0.0.1:35106] server connect ws.batch.com:443 (87.98.161.162:443)
+[19:22:26.137][127.0.0.1:35090] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:26.137][127.0.0.1:35090] client disconnect
+[19:22:26.138][127.0.0.1:35090] server disconnect api.8pus.io:443 (13.38.169.169:443)
+127.0.0.1:35106: POST https://ws.batch.com/a/3.2.3/tr/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 1c6b9356-0fbc-41af-b647-78bb0ab12443
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: Ua2GNtzzkJtTLPfr8ZQTsPFQpiA=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent qxuA8jhJJFe+RaNQykXbrQNxdTjWffZbztU9g2E/58o=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 701
+ << 200 OK 200b
+    Content-Length: 200
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:26 GMT
+    X-Batch-Content-Cipher: 2
+[19:22:26.961][127.0.0.1:35118] client connect
+[19:22:27.060][127.0.0.1:35126] client connect
+[19:22:27.070][127.0.0.1:35118] server connect api.8pus.io:443 (13.38.169.169:443)
+[19:22:27.564][127.0.0.1:35126] server connect firebaseremoteconfig.googleapis.com:443 (216.239.34.223:443)
+[19:22:27.565][127.0.0.1:35118] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:27.565][127.0.0.1:35118] client disconnect
+[19:22:27.565][127.0.0.1:35118] server disconnect api.8pus.io:443 (13.38.169.169:443)
+[19:22:27.587][127.0.0.1:35126] Client TLS handshake failed. The client does not trust the proxy's certificate for firebaseremoteconfig.googleapis.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:27.587][127.0.0.1:35126] client disconnect
+[19:22:27.588][127.0.0.1:35126] server disconnect firebaseremoteconfig.googleapis.com:443 (216.239.34.223:443)
+[19:22:28.765][127.0.0.1:35132] client connect
+[19:22:28.771][127.0.0.1:35144] client connect
+[19:22:28.858][127.0.0.1:35148] client connect
+[19:22:29.266][127.0.0.1:35132] server connect ws.batch.com:443 (87.98.159.176:443)
+[19:22:29.266][127.0.0.1:35144] server connect ws.batch.com:443 (87.98.137.78:443)
+[19:22:29.288][127.0.0.1:35148] server connect api.8pus.io:443 (15.237.223.78:443)
+[19:22:29.769][127.0.0.1:35148] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:29.769][127.0.0.1:35148] client disconnect
+[19:22:29.769][127.0.0.1:35148] server disconnect api.8pus.io:443 (15.237.223.78:443)
+127.0.0.1:35144: POST https://ws.batch.com/a/3.2.3/tr/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: e6951130-e185-4cc8-86a2-2c8feff7584e
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: Go4cu0sgMwamsLIQBaphXhGB+iM=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent VZuFaMsppF6S7++qSO+M+fcudbLZN+2l9qjZiOyOOk4=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 811
+ << 200 OK 200b
+    Content-Length: 200
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:29 GMT
+    X-Batch-Content-Cipher: 2
+127.0.0.1:35132: POST https://ws.batch.com/a/3.2.3/st/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: e7920e6a-915b-4a45-9012-3197020cc14a
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: oDAFLyKLyPs9RJty1MLeOICI2/s=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent DLETmCUMUBqOegPtOJHAr/cA3nMVcg6JRjdTGhZl1Qs=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 787
+ << 200 OK 244b
+    Content-Length: 244
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:29 GMT
+    X-Batch-Content-Cipher: 2
+[19:22:29.793][127.0.0.1:35150] client connect
+[19:22:30.303][127.0.0.1:35150] server connect ws.batch.com:443 (54.36.246.133:443)
+127.0.0.1:35150: POST https://ws.batch.com/a/3.2.3/inapp/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: d53c018b-f7de-48d8-a11b-fe0b7b148a2d
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: oGXn5Rr5UFjSSN1u6EUFMPyiAYM=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent oMtg8VAwsJMhLsf0GLRK2Rkl3iUESpt7EhoVX5RSnA0=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 507
+ << 200 OK 244b
+    Content-Length: 244
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:30 GMT
+    X-Batch-Content-Cipher: 2
+[19:22:30.839][127.0.0.1:35106] client disconnect
+[19:22:30.839][127.0.0.1:35106] server disconnect ws.batch.com:443 (87.98.161.162:443)
+[19:22:30.844][127.0.0.1:35164] client connect
+[19:22:31.370][127.0.0.1:35164] server connect ws.batch.com:443 (87.98.137.78:443)
+[19:22:31.610][127.0.0.1:35178] client connect
+[19:22:31.843][127.0.0.1:35192] client connect
+[19:22:31.857][127.0.0.1:35178] server connect api.8pus.io:443 (15.237.223.78:443)
+127.0.0.1:35164: POST https://ws.batch.com/a/3.2.3/t/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 40def2e7-ec21-470e-a739-66a23f9874c8
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: tSOim1O5RU944hw6dJLWLLHXc8k=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent fIg9EFkLfw6hIB9bKRWs7VBo7oOWduot7xzYwfqcjBg=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 722
+ << 200 OK 200b
+    Content-Length: 200
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:31 GMT
+    X-Batch-Content-Cipher: 2
+[19:22:31.882][127.0.0.1:35178] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:31.882][127.0.0.1:35178] client disconnect
+[19:22:31.882][127.0.0.1:35178] server disconnect api.8pus.io:443 (15.237.223.78:443)
+[19:22:31.887][127.0.0.1:35192] server connect wsmetrics.batch.com:443 (193.70.103.218:443)
+127.0.0.1:35192: POST https://wsmetrics.batch.com/api-sdk
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 7300be1c-a273-47d5-985d-317b2feaf1f0
+    X-Batch-Accept-Cipher: 2
+    x-batch-sdk-version: 3.2.3
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: SND4cBIkTgbj0BdfXwGOKuQgTZs=
+    X-Batch-Signature: SHA256 accept-encoding,content-sha1,content-type,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-batch-sdk-version GD8tRTFK3mfzRfL0AnJ7uOEtwDYsK+7FsSfLnNt7bdE=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: wsmetrics.batch.com
+    Connection: Keep-Alive
+    Content-Length: 162
+ << 200 OK 0b
+    Access-Control-Allow-Origin: *
+    Content-Length: 0
+    Date: Fri, 03 Jul 2026 19:22:31 GMT
+    Vary: Origin
+[19:22:31.925][127.0.0.1:35144] client disconnect
+[19:22:31.925][127.0.0.1:35144] server disconnect ws.batch.com:443 (87.98.137.78:443)
+[19:22:35.411][127.0.0.1:56796] client connect
+[19:22:35.428][127.0.0.1:56806] client connect
+[19:22:35.449][127.0.0.1:56796] server connect api.8pus.io:443 (15.224.117.151:443)
+[19:22:35.480][127.0.0.1:56820] client connect
+[19:22:35.486][127.0.0.1:56806] server connect apps.sephora.eu:443 (23.192.237.196:443)
+[19:22:35.534][127.0.0.1:56826] client connect
+[19:22:35.957][127.0.0.1:56796] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:35.957][127.0.0.1:56796] client disconnect
+[19:22:35.957][127.0.0.1:56796] server disconnect api.8pus.io:443 (15.224.117.151:443)
+[19:22:35.968][127.0.0.1:56826] server connect apps.sephora.eu:443 (23.192.237.216:443)
+[19:22:35.980][127.0.0.1:56806] Client TLS handshake failed. The client does not trust the proxy's certificate for apps.sephora.eu (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:35.980][127.0.0.1:56806] client disconnect
+[19:22:35.980][127.0.0.1:56806] server disconnect apps.sephora.eu:443 (23.192.237.196:443)
+[19:22:35.988][127.0.0.1:56820] server connect cdn.tagcommander.com:443 (151.101.130.132:443)
+[19:22:36.023][127.0.0.1:56820] Client TLS handshake failed. The client does not trust the proxy's certificate for cdn.tagcommander.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:36.024][127.0.0.1:56820] client disconnect
+[19:22:36.024][127.0.0.1:56820] server disconnect cdn.tagcommander.com:443 (151.101.130.132:443)
+127.0.0.1:56826: POST https://apps.sephora.eu/login/v1/token?locale=fr-FR&type=guest HTTP/2.0
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    content-type: application/json
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    x-acf-sensor-data: 6,a,Mm9uZb/xRLx7gqFTMl0TPOPt9y/LmaV78qODw9Q3kRLXj/DbXSQ0ZKRuIHZ5pIgpjAkqqjFAEs6UGlHPilVNMbzJT8STpR86ZgmzI9l1V3xf3yFV7OpGmcZv5ofLZ8ubVEY4Oa7f/o46h5JMIVH8ZSDXB/zV+c8MArDU1FoRxiA=,EVfZp+JyVUlHETQvPkuha4pUuGP/UBamAiOGU8WEWektIpw3EaMdpUZH/oX/7wZefiT6ye/3VO4eYXdbrhZUxfFZGOgHU8GT+GsDWl2HyN5hpUL5YzdCUCke64GK2dEf8TD7b7fd9leXhcJmLgAosIWhRtGxzeJfXkjtMVUuAv0=$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$138,19,20$$$$0&&&e7b41b7bee1051d0&&&0&&&4.2.1
+    content-length: 0
+    accept-encoding: gzip
+ << HTTP/2.0 201 Created 3.3k
+    x-soda-version: login-26vq2sp1-v1
+    content-type: application/json; charset=utf-8
+    content-length: 3395
+    etag: W/"d43-uaQEqS/bIGyRzFhMDyrDnzJbxvY:dtagent10339260603164134dSMR:dtagent10339260603164134dSMR"
+    server-timing: dtTrId;desc="70db68656f4ed86b00c35a12cab7b1e1", dtSInfo;desc="1"
+    x-trace-id: 35e9d7e4-e949-4478-a50b-f31a01d285672433381#cd2ea3bff4dccb25574269f59ac3b1b1
+    x-message-id: 35e9d7e4-e949-4478-a50b-f31a01d285672433381#cd2ea3bff4dccb25574269f59ac3b1b1
+    x-request-id: ff6db81e-5461-48eb-9515-cc2c071b26e0
+    expires: Fri, 03 Jul 2026 19:22:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    set-cookie: dtCookie=v_4_srv_20_sn_E387500254D62F7D58579255B35CB11B_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_0; Path=/; Domain=.sephora.cam
+[19:22:36.298][127.0.0.1:35132] client disconnect
+[19:22:36.299][127.0.0.1:35132] server disconnect ws.batch.com:443 (87.98.159.176:443)
+127.0.0.1:56826: GET https://apps.sephora.eu/Settings/V1/Configurations/application/218/version/FR_fr-LOCALE-01 HTTP/2.0
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 12.3k
+    content-type: application/json
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: dbd80d0c-180d-4b72-8a65-34ad8e6b7763604094#deb6602693cbef13e22be23de344fd34
+    x-message-id: dbd80d0c-180d-4b72-8a65-34ad8e6b7763604094#deb6602693cbef13e22be23de344fd34
+    x-request-id: f6139eaf-4aba-41f2-9d59-e1bfc843057a
+    expires: Fri, 03 Jul 2026 19:22:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    content-length: 12596
+127.0.0.1:56826: GET https://apps.sephora.eu/Settings/V1/Configurations/application/218/version/FR-CONFIG-01 HTTP/2.0
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 30.8k
+    content-type: application/json
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: efba9795-11f2-4c1f-8074-dc9859b4a7d0620877#74bfc02de234b5fa0a196c11e5988be8
+    x-message-id: efba9795-11f2-4c1f-8074-dc9859b4a7d0620877#74bfc02de234b5fa0a196c11e5988be8
+    x-request-id: 771a32cd-1356-4a74-8243-7f9b683972c2
+    expires: Fri, 03 Jul 2026 19:22:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    content-length: 31575
+127.0.0.1:56826: GET https://apps.sephora.eu/Settings/V1/Configurations/application/218/version/fr-WORDING-01 HTTP/2.0
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 232k
+    content-type: application/json
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: 113b5732-50d9-4100-8a14-7872e7942cf3623865#66cc6964279d04a147cbd2659a4dd59b
+    x-message-id: 113b5732-50d9-4100-8a14-7872e7942cf3623865#66cc6964279d04a147cbd2659a4dd59b
+    x-request-id: f8928eed-0a10-4ece-a673-ba638d1cd959
+    expires: Fri, 03 Jul 2026 19:22:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    content-length: 237114
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/custom_objects/OcapiConfigs/SiteConfigs?locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 13.2k
+    content-type: application/json;charset=UTF-8
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=19,cfOrigin;dur=351
+    accept-ranges: bytes
+    x-dw-request-base-id: nlIGqi8LSGoBAAB_
+    x-sf-cc-x-trace-id: 455ed0cc-3afa-4bb5-800c-0a38248ba20a2445047#ba47f28f4c088fc6758fd9da31f3c5b7
+    sfdc_customization: HOOK
+    allow: GET,HEAD,OPTIONS
+    x-dw-version-status: obsolete
+    x-content-type-options: nosniff
+    vary: accept-encoding
+    content-encoding: gzip
+    cf-cache-status: DYNAMIC
+    cf-ray: a1583d8619996d1d-AMS
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: 569ca2ba-1eba-4706-8239-d177f160ba3e2438227#bd5b0118c6971e0d3481e72c5bffd54d
+    x-message-id: 569ca2ba-1eba-4706-8239-d177f160ba3e2438227#bd5b0118c6971e0d3481e72c5bffd54d
+    x-request-id: 30ac6c40-e71d-4a9e-ab95-86bac84feebb
+    expires: Fri, 03 Jul 2026 19:22:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    content-length: 13487
+127.0.0.1:56826: GET https://apps.sephora.eu/Cards/V1/content/widget/app_of_cards/FR/fr/triggers/welcome/welcome.data.json HTTP/2.0
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 404 Not Found 409b
+    content-type: text/html;charset=utf-8
+    x-dispatcher: dispatcher2francecentral-28633657
+    x-vhost: publish
+    content-encoding: gzip
+    x-frame-options: SAMEORIGIN
+    x-content-type-options: nosniff
+    vary: Accept-Encoding
+    strict-transport-security: max-age=86400
+    x-trace-id: 06671028-6b24-4b54-846d-120353dd003e882967#1b68047ea31504e8321ffc70ec215e18
+    x-message-id: 06671028-6b24-4b54-846d-120353dd003e882967#1b68047ea31504e8321ffc70ec215e18
+    x-request-id: e8839b09-465f-4915-8f80-bcf4fb3330f8
+    expires: Fri, 03 Jul 2026 19:22:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    content-length: 409
+    set-cookie: ApplicationGatewayAffinityCORS=a9dc65ce99407d1a06f4673b5ccc9ea0; Path=/; SameSite=None; Secure
+    set-cookie: ApplicationGatewayAffinity=a9dc65ce99407d1a06f4673b5ccc9ea0; Path=/
+[19:22:36.640][127.0.0.1:56832] client connect
+[19:22:36.660][127.0.0.1:56832] server connect api.target2sell.com:443 (34.36.246.197:443)
+127.0.0.1:56826: GET https://apps.sephora.eu/Cards/V1/bin/widget/aoc?output=json&appType=oneapp&location=FRANCE&time=202607031922&langue=fr&userProfile=All HTTP/2.0
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 2.4k
+    content-type: application/json;charset=utf-8
+    x-dispatcher: dispatcher1francecentral-28629331
+    x-vhost: publish
+    x-content-type-options: nosniff
+    x-frame-options: SAMEORIGIN
+    content-encoding: gzip
+    vary: Accept-Encoding
+    strict-transport-security: max-age=86400
+    x-trace-id: 72f82b40-7994-415a-91c7-b3b429cea1e1900920#cc4e34eff4d559bfccff255edd9d0321
+    x-message-id: 72f82b40-7994-415a-91c7-b3b429cea1e1900920#cc4e34eff4d559bfccff255edd9d0321
+    x-request-id: 7d3beec2-189c-4375-892a-b3d00d2b3f2d
+    expires: Fri, 03 Jul 2026 19:22:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    content-length: 2420
+    set-cookie: ApplicationGatewayAffinityCORS=022cb5c5d2b1374db915e8344bd31ac6; Path=/; SameSite=None; Secure
+    set-cookie: ApplicationGatewayAffinity=022cb5c5d2b1374db915e8344bd31ac6; Path=/
+127.0.0.1:56832: GET https://api.target2sell.com//user/indexes?uEM=undefined HTTP/2.0
+    t2s-customer-id: RRICP1PGU4N8JO
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 16b
+    server: nginx
+    date: Fri, 03 Jul 2026 19:22:36 GMT
+    content-type: application/json
+    content-length: 16
+    x-content-type-options: nosniff
+    x-xss-protection: 0
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: 0
+    strict-transport-security: max-age=31536000 ; includeSubDomains
+    x-frame-options: DENY
+    access-control-allow-origin: *
+    access-control-allow-credentials: true
+    access-control-allow-methods: DELETE, PUT, HEAD, OPTIONS, GET, POST
+    access-control-allow-headers: *
+    vary: Origin
+    via: 1.1 google
+    alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[19:22:37.016][127.0.0.1:56842] client connect
+[19:22:37.025][127.0.0.1:56844] client connect
+[19:22:37.047][127.0.0.1:56854] client connect
+[19:22:37.121][127.0.0.1:56860] client connect
+[19:22:37.437][127.0.0.1:56860] server connect privacy.trustcommander.net:443 (52.47.196.234:443)
+[19:22:37.443][127.0.0.1:56844] server connect ws.batch.com:443 (193.70.103.218:443)
+[19:22:37.447][127.0.0.1:56842] server connect qdv4ot-cdn-settings.appsflyersdk.com:443 (18.155.128.16:443)
+[19:22:37.476][127.0.0.1:56854] server connect bf74432kky.bf.dynatrace.com:443 (54.73.18.34:443)
+[19:22:37.937][127.0.0.1:56860] Client TLS handshake failed. The client does not trust the proxy's certificate for privacy.trustcommander.net (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:37.937][127.0.0.1:56842] Client TLS handshake failed. The client does not trust the proxy's certificate for qdv4ot-cdn-settings.appsflyersdk.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:37.938][127.0.0.1:56842] client disconnect
+[19:22:37.938][127.0.0.1:56842] server disconnect qdv4ot-cdn-settings.appsflyersdk.com:443 (18.155.128.16:443)
+[19:22:37.938][127.0.0.1:56860] client disconnect
+[19:22:37.938][127.0.0.1:56860] server disconnect privacy.trustcommander.net:443 (52.47.196.234:443)
+[19:22:37.948][127.0.0.1:56854] Client TLS handshake failed. The client does not trust the proxy's certificate for bf74432kky.bf.dynatrace.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:37.948][127.0.0.1:56854] client disconnect
+[19:22:37.948][127.0.0.1:56854] server disconnect bf74432kky.bf.dynatrace.com:443 (54.73.18.34:443)
+127.0.0.1:56844: POST https://ws.batch.com/a/3.2.3/tr/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 34b96644-3c38-4764-8ef0-757994519b43
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: kACXBUNFT15/vqG0dN4hV7gcH9g=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent FiZEUvuH3G75CwrmtyeBU5CKyzMjbo3MWGvwYDTOZOc=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 851
+ << 200 OK 200b
+    Content-Length: 200
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:37 GMT
+    X-Batch-Content-Cipher: 2
+[19:22:37.953][127.0.0.1:35150] client disconnect
+[19:22:37.953][127.0.0.1:35150] server disconnect ws.batch.com:443 (54.36.246.133:443)
+[19:22:37.977][127.0.0.1:35164] client disconnect
+[19:22:37.977][127.0.0.1:35164] server disconnect ws.batch.com:443 (87.98.137.78:443)
+[19:22:39.081][127.0.0.1:56874] client connect
+[19:22:39.100][127.0.0.1:56886] client connect
+[19:22:39.149][127.0.0.1:56892] client connect
+[19:22:39.149][127.0.0.1:56900] client connect
+[19:22:39.149][127.0.0.1:56912] client connect
+[19:22:39.196][127.0.0.1:56914] client connect
+[19:22:39.493][127.0.0.1:56886] server connect ws.batch.com:443 (193.70.103.218:443)
+[19:22:39.494][127.0.0.1:56874] server connect ws.batch.com:443 (87.98.137.78:443)
+[19:22:39.507][127.0.0.1:56914] server connect qdv4ot-conversions.appsflyersdk.com:443 (143.204.185.61:443)
+[19:22:39.521][127.0.0.1:56912] server connect media.sephora.eu:443 (23.72.248.201:443)
+[19:22:39.521][127.0.0.1:56892] server connect media.sephora.eu:443 (23.72.248.201:443)
+[19:22:39.521][127.0.0.1:56900] server connect media.sephora.eu:443 (23.72.248.201:443)
+[19:22:39.991][127.0.0.1:56914] Client TLS handshake failed. The client does not trust the proxy's certificate for qdv4ot-conversions.appsflyersdk.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:39.991][127.0.0.1:56914] client disconnect
+[19:22:39.991][127.0.0.1:56914] server disconnect qdv4ot-conversions.appsflyersdk.com:443 (143.204.185.61:443)
+127.0.0.1:56874: POST https://ws.batch.com/a/3.2.3/st/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 2e23fdd5-a93e-49bb-9ed3-407070dfd80c
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: 3rp4m+orCGC3U2ZGAZ6FEAVOj8g=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent BE2T19vpQywPE8OBijCJ7IFs/PPznKKW62C4I3sTMck=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 811
+ << 200 OK 244b
+    Content-Length: 244
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:39 GMT
+    X-Batch-Content-Cipher: 2
+127.0.0.1:56886: POST https://ws.batch.com/a/3.2.3/tr/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 4e577c81-0db0-42e0-9f4c-8f7d46d65440
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: g2Bz/ktWEz5U19zvYaSB6SVvHXA=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent CvnTwf0oW16MOy6vOmRfHJgES0kQOguKKlLE5HeEuqU=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 1026
+ << 200 OK 200b
+    Content-Length: 200
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:22:39 GMT
+    X-Batch-Content-Cipher: 2
+[19:22:40.010][127.0.0.1:56912] client disconnect
+[19:22:40.010][127.0.0.1:56912] server disconnect media.sephora.eu:443 (23.72.248.201:443)
+[19:22:40.011][127.0.0.1:35192] client disconnect
+[19:22:40.011][127.0.0.1:35192] server disconnect wsmetrics.batch.com:443 (193.70.103.218:443)
+[19:22:40.011][127.0.0.1:56900] client disconnect
+[19:22:40.012][127.0.0.1:56900] server disconnect media.sephora.eu:443 (23.72.248.201:443)
+127.0.0.1:56892: GET https://media.sephora.eu/content/dam/gdam/europe/digital/app-of-cards/aoc_assets_sans-maj/appofcards_assets_onboarding/newonboarding3.jpg HTTP/2.0
+    user-agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 218k
+    access-control-allow-origin: *
+    last-modified: Tue, 02 Jun 2026 07:45:05 GMT
+    x-frame-options: SAMEORIGIN
+    etag: "0x8DEA4EDC9178D33"
+    server: Akamai Image Manager
+    content-length: 223353
+    content-type: image/jpeg
+    cache-control: private, no-transform, max-age=43200
+    expires: Sat, 04 Jul 2026 07:22:40 GMT
+    date: Fri, 03 Jul 2026 19:22:40 GMT
+    strict-transport-security: max-age=86400
+127.0.0.1:56892: GET https://media.sephora.eu/content/dam/gdam/europe/digital/app-of-cards/aoc_assets_sans-maj/appofcards_assets_onboarding/newonboarding1.jpg HTTP/2.0
+    user-agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 262k
+    access-control-allow-origin: *
+    last-modified: Tue, 02 Jun 2026 07:45:05 GMT
+    x-frame-options: SAMEORIGIN
+    etag: "0x8DEA4DA5522C2C2"
+    server: Akamai Image Manager
+    content-length: 268215
+    content-type: image/jpeg
+    cache-control: private, no-transform, max-age=43200
+    expires: Sat, 04 Jul 2026 07:22:40 GMT
+    date: Fri, 03 Jul 2026 19:22:40 GMT
+    strict-transport-security: max-age=86400
+127.0.0.1:56892: GET https://media.sephora.eu/content/dam/gdam/europe/digital/app-of-cards/aoc_assets_sans-maj/appofcards_assets_onboarding/newonboarding2.jpg HTTP/2.0
+    user-agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 179k
+    access-control-allow-origin: *
+    last-modified: Tue, 02 Jun 2026 07:45:06 GMT
+    x-frame-options: SAMEORIGIN
+    etag: "0x8DEA4FA4283463D"
+    server: Akamai Image Manager
+    content-length: 182959
+    content-type: image/jpeg
+    cache-control: private, no-transform, max-age=43200
+    expires: Sat, 04 Jul 2026 07:22:40 GMT
+    date: Fri, 03 Jul 2026 19:22:40 GMT
+    strict-transport-security: max-age=86400
+[19:22:40.214][127.0.0.1:56844] client disconnect
+[19:22:40.215][127.0.0.1:56844] server disconnect ws.batch.com:443 (193.70.103.218:443)
+[19:22:40.217][127.0.0.1:56926] client connect
+[19:22:40.754][127.0.0.1:56926] server connect qdv4ot-gcdsdk.appsflyersdk.com:443 (13.224.204.40:443)
+[19:22:41.057][127.0.0.1:56932] client connect
+[19:22:41.232][127.0.0.1:56926] Client TLS handshake failed. The client does not trust the proxy's certificate for qdv4ot-gcdsdk.appsflyersdk.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:41.232][127.0.0.1:56926] client disconnect
+[19:22:41.232][127.0.0.1:56926] server disconnect qdv4ot-gcdsdk.appsflyersdk.com:443 (13.224.204.40:443)
+[19:22:41.235][127.0.0.1:56932] server connect api.8pus.io:443 (13.38.169.169:443)
+[19:22:41.258][127.0.0.1:56932] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:41.258][127.0.0.1:56932] client disconnect
+[19:22:41.258][127.0.0.1:56932] server disconnect api.8pus.io:443 (13.38.169.169:443)
+[19:22:51.563][127.0.0.1:41252] client connect
+[19:22:51.834][127.0.0.1:41252] server connect api.8pus.io:443 (15.224.117.151:443)
+[19:22:52.366][127.0.0.1:41252] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:52.366][127.0.0.1:41252] client disconnect
+[19:22:52.366][127.0.0.1:41252] server disconnect api.8pus.io:443 (15.224.117.151:443)
+[19:22:57.779][127.0.0.1:49962] client connect
+[19:22:57.886][127.0.0.1:49962] server connect firebaselogging-pa.googleapis.com:443 (216.239.38.223:443)
+[19:22:58.386][127.0.0.1:49962] Client TLS handshake failed. The client does not trust the proxy's certificate for firebaselogging-pa.googleapis.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:22:58.386][127.0.0.1:49962] client disconnect
+[19:22:58.387][127.0.0.1:49962] server disconnect firebaselogging-pa.googleapis.com:443 (216.239.38.223:443)
+127.0.0.1:56826: POST https://apps.sephora.eu/login/v1/token?locale=fr-FR&type=client_credentials HTTP/2.0
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    x-acf-sensor-data: 6,a,Mm9uZb/xRLx7gqFTMl0TPOPt9y/LmaV78qODw9Q3kRLXj/DbXSQ0ZKRuIHZ5pIgpjAkqqjFAEs6UGlHPilVNMbzJT8STpR86ZgmzI9l1V3xf3yFV7OpGmcZv5ofLZ8ubVEY4Oa7f/o46h5JMIVH8ZSDXB/zV+c8MArDU1FoRxiA=,EVfZp+JyVUlHETQvPkuha4pUuGP/UBamAiOGU8WEWektIpw3EaMdpUZH/oX/7wZefiT6ye/3VO4eYXdbrhZUxfFZGOgHU8GT+GsDWl2HyN5hpUL5YzdCUCke64GK2dEf8TD7b7fd9leXhcJmLgAosIWhRtGxzeJfXkjtMVUuAv0=$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$45,22,28$$$$0&&&e7b41b7bee1051d0&&&0&&&4.2.1
+    content-type: application/json; charset=UTF-8
+    content-length: 58
+    accept-encoding: gzip
+ << HTTP/2.0 403 Forbidden 392b
+    mime-version: 1.0
+    content-type: text/html
+    content-length: 392
+    expires: Fri, 03 Jul 2026 19:22:59 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:22:59 GMT
+[19:23:05.579][127.0.0.1:55530] client connect
+[19:23:05.895][127.0.0.1:55530] server connect api.8pus.io:443 (13.38.169.169:443)
+[19:23:06.398][127.0.0.1:55530] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:23:06.398][127.0.0.1:55530] client disconnect
+[19:23:06.399][127.0.0.1:55530] server disconnect api.8pus.io:443 (13.38.169.169:443)
+[19:23:27.250][127.0.0.1:50844] client connect
+[19:23:27.414][127.0.0.1:50844] server connect api.8pus.io:443 (13.38.169.169:443)
+[19:23:27.916][127.0.0.1:50844] Client TLS handshake failed. The client does not trust the proxy's certificate for api.8pus.io (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:23:27.916][127.0.0.1:50844] client disconnect
+[19:23:27.916][127.0.0.1:50844] server disconnect api.8pus.io:443 (13.38.169.169:443)
+127.0.0.1:56826: POST https://apps.sephora.eu/login/v1/token?locale=fr-FR&type=client_credentials HTTP/2.0
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    x-acf-sensor-data: 6,a,Mm9uZb/xRLx7gqFTMl0TPOPt9y/LmaV78qODw9Q3kRLXj/DbXSQ0ZKRuIHZ5pIgpjAkqqjFAEs6UGlHPilVNMbzJT8STpR86ZgmzI9l1V3xf3yFV7OpGmcZv5ofLZ8ubVEY4Oa7f/o46h5JMIVH8ZSDXB/zV+c8MArDU1FoRxiA=,EVfZp+JyVUlHETQvPkuha4pUuGP/UBamAiOGU8WEWektIpw3EaMdpUZH/oX/7wZefiT6ye/3VO4eYXdbrhZUxfFZGOgHU8GT+GsDWl2HyN5hpUL5YzdCUCke64GK2dEf8TD7b7fd9leXhcJmLgAosIWhRtGxzeJfXkjtMVUuAv0=$VSuA8ZW/qFYw5aM+vDwjAOiquxuQPkpPX1L709xl1+7DzuqYnrC0QGFbPXlIbmMClMKp9fTXP3FqJTPkOp8lX6AUVk4lCZRoVDeiheIW3tQ8WXr5t4ZMA9GDRO0R9fq1qiY1GqpJ5GXZDA2TsOEInenvp1TOyl1i6TjP8q9CmnUNt6K2uP3Ivc6yAG2qfC3j7rl9/VWVy3AoRJXP0Pz90G6ELUGvepfW3KwuM8Td/NGMtNet3efsz29yJj2zGtA7shbg1x7GaMXJx6TVTEwFOZbNFvV8EeKCKwJPJmGQVqDAsPruAMyvGdIOmdqHU8bXYig4HTXG5PvUAwRx3f/0/3AHiZUMmcSkByMepb+zloKGH8ur1a+OZXLQaKwa5LjFJq1H7CCc3JIUQRSaffrEUIpPleE2WLhbk0NDM9jQoTbgHtMfs4eDOVv7HxExXJbp94py/u4n6Sv0DrOzBtFy72PSYFQhwLjlBVPbo4MTaSLem6K/1Q1U8udpDUze5fn8WKDPiDRACeYPBQbj4EB3iEUgF1mX1I04lI4u9J6jB8tKIs//2tsxos7FqxGRdnmkohwj4LbI6k1VkFAtvbac5bAqA1bhEqyeIYNIhdIvoIrmWrC9L6wjZ5CwAr6dVTOZXzqm33S6zTIEvzDrTvzWPVHO52lcZE7357ZGdd0AdwDB4C7BIcSy/7sNLiI/TH+so1bSjU2eh9N3AVsGFZFqhJ2ETigeOr0MZxz8v/KaDuHTVu2ca/YGw41fLExVo+g8cOZBI4DIjsbTcj2Az1rcwXGfYeDQyERfFwEIC52S7WqzQU7LwRH1QDvWdURPA0yHuNZEVgk6CDYcIYK4WkSg01fMrHeL0+LBHZPxL6CGYYK511BLF0lxUmL/bnoF73dv22iTJrOjr7CZ+ZKNX3KQ1WkTbFyuyXyKr/R2D8FH9uPFr1JXNGHOUEMc+iznwcWLYy1nS3RhEsst4ANDOdFH+fSHBX4FsUapNkYB2mhvCkAUw7Q60uN9Nx5a/FIbUOOrA7xwGCy+ou22sX7HxFLsL3GfAON/SN+8nuBs4Pq3pgPtCZjw3HCPsr6N4qDPjLvyioMSNJBaiWKRkHokXWTn6n9DpIprdoVzMZPB4db8PM7yoR5bjZhVO5mQ6f0G/H/xCUn1pr5pFUdk7pDx63vnDhIArMQDAMgWasCu9Vz57zzbkv9JlR1+6H+bkADaSCsZ/FyCTml3wJKBaaAH4Kky/S9ZfmyDM+2PgjtyQl9VOB68yPFFlVC+2OfMPIeOoZopsjqBqUVj3mlNDeC1sLBdUllIYnqjWdTXlfOlu3rpX+pANl1NqTFSkecqdeSEO6vPL8DyAsyhqHaRLUZT4puJ3IMuQaX7qU7a4ovrYvmCqTgE8Ab6SQGeO6OBRJ99qFi9OQJMKxI67MyXs3rgBnEQ7dCAi2/l+PZHn+NmxxbDvpCumPXqM8Ri5r4fRZoSvzLuGm+cHxlSyTOh9B9oKYnpCbTXiZwRp6hV4jOVyLLo+qeWt2lN49rSdld37u4MzP+X6E1Ox+89Nj8VkHk+ZGeC0aPECoQwyFQKCFCUSeTpZdfefnTtCIEeCBTjhPriGmZZzQW97xvBQ5FWs8YqrzNqMuWLblsdTmSXUAzlzRqxy3U4Bad6QnWfQMaGvRwSa7WKywcFIt3wFYLNSnrD8ilmcLXTeOHp/Y4UCTfqcmhC59XTrP+xNUbWPAGFrE76OMM/op3++R5tlsVVIRVRUMBZa5qZp0c19pk1TFHKpbOCC3vftOYyDKr8SquZeiy72SIHsLd4j9V2Ai/YIgCDO66x4ys1EDrGTcED74BIIv3i0MNKsihwwwCiJPRzIHzpUIk/0uXf0OuvK6jwaeW9Gs2jbVP+cTHbxBhpzPIV2YvSWcod5xjOXWlN6uFjdNS+pQGPDh9SxtnO9k0X0KSm5xogNymil4DvG5AMIuP50e0yNguDkJfrpua4193Qd5me2vdbI684xo3wgJ4I2inm3Xq4fsgiGDR6DQFsXG4yp+XBSzbwcexnHxY/VypQVDgODcXTTqE0bsw2HsoaApxtmyxQrMuuCi1KzQRK2VBAfzlQ6HpdjVaYHfIfkDiqYgoF+HU/SkMajpChxswhH8JM0iX5QlAke0OWf1Yfqbn05n3zkPdB9G30Etpe+JocfnGDpFrhSSLyYEOeTSame/TSeh23SWQDH/0SwSiHL7/Ms9Aqwhlnog+BmqHhMX8akd5IjEgtrSCcbx2+hycWFlWYv0tBF4x8Zd7CNPyh+Qxiay+NfQNVh9sA7ZSV++Q9yru2ny1Kw9e8mFPJJIF88h6S+kbGUt9MbcFeRVgq0vgKlxVmjT6mXbVPm2odu2v+npIV+lqCD+Q0sdknTDFmGlqy9RQ2bpRdOtuehuJhcebxPLBxjukp6tKio8S4SMipaq/B9d11vbrjqfhbnobgw8UuuYKyF5pTHQt+a8jmLJ39OVE1uik2cFfteVQykUUPSnCetNdjTc9dOhhq/60qXhPGxK0rqiYkhD9Ebuvbiyf0ak0Z761zUNiwv1NG2OHZ5BGDGjCR2uZ+2cbqhv7KhNAnsImBA5aL1YLBdc+kzeezqW0CpO6rO9LtoHuJvEc9ksNl2HU8XVUCMcgCnBm0/EKsX9FtLCZE44K7K1QMJGxmx5FYRlx2X/4MIjG/MqJcLy4tkRei6vuZSR7XSC5rIcv74bKRqKiFRdsTCRB5ud0b5Fz4ryysyoEw0y8eeAd9AFs5Pdg66UqZupRaiIgRO18onHu8nv0olx4tvXSiKpO0IKiDr/YOFAm2E+eVFNWYOimCrBzDLU9VWYewrADpg4mgyl0q7L9vcUb6BS2jwLI3zMKWjMfKYbTpI00oNHS/YX5eEVQM5f7Z8b9e6EstL02CzJyChXCQV2vwBBSFzZj+HnJ7ZyF3Rs46IADSHMXGep8xnnGhfK7QHj2wE3rShFJV01GpiLWRzU21+E0lbLnXOW/LwGd2yiuyAk4w9Vx6KheoYgewDYDwfRdt5/LOv+JAUmC8Ah7797ZqU8txqkbM0YKw/LSAlqy5TwVj2Ju5UfFlPY0SDizFPIuaZhPOeQd3zzZfLlBlnADbBxBaUFAGe6hkZhTbqpax89lHIwi0TayqJLrUVfxuW7hey7dysbnNluTvj8cGQmFpNLjGYEw/G3Iq5iygSJmN4lCPhU1mXZStHwKbdyQ4HIoPuKDdTzCa8y47Rt4FqC2hqBPZhyXwLWWcIffW0U3Tv7juDi3z+WeXci9g$46,20,22$$$$0&&&e7b41b7bee1051d0&&&0&&&4.2.1
+    content-type: application/json; charset=UTF-8
+    content-length: 58
+    accept-encoding: gzip
+ << HTTP/2.0 201 Created 3.8k
+    x-soda-version: login-26vq2sp1-v1
+    content-type: application/json; charset=utf-8
+    content-length: 3899
+    etag: W/"f3b-tA5iHFvpzBOCgO6FZo/IkiksfcI:dtagent10339260603164134dSMR:dtagent10339260603164134dSMR"
+    server-timing: dtTrId;desc="a76d5fa7829106f79d1e4d8603b751c7", dtSInfo;desc="1"
+    x-trace-id: 2606da9d-d0b2-461b-96d0-d632fd2d7fd82458193#22786bd8f2cb378e885817916a0a1d12
+    x-message-id: 2606da9d-d0b2-461b-96d0-d632fd2d7fd82458193#22786bd8f2cb378e885817916a0a1d12
+    x-request-id: e6d658c9-a19d-472e-ac6f-d23eed5ab9b4
+    expires: Fri, 03 Jul 2026 19:23:35 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:35 GMT
+    set-cookie: dtCookie=v_4_srv_35_sn_22C009529109CA26754D207C7237D66B_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_0; Path=/; Domain=.sephora.cam
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/customers/[CUSTOMER_ID_REDACTED]?locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 2.4k
+    content-type: application/json;charset=UTF-8
+    content-length: 2451
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=4,cfOrigin;dur=16
+    accept-ranges: bytes
+    x-dw-request-base-id: 9FX-UjcMSGoBAAB_
+    x-dw-resource-state: c2a246a992cfc0d0e9d233b4353bb8137b0e28486022a7dfa7cea01135a6b105
+    etag: c2a246a992cfc0d0e9d233b4353bb8137b0e28486022a7dfa7cea01135a6b105
+    x-sf-cc-x-trace-id: c585080d-e8d2-4d5d-a9ec-3cb9570fda5e2401743#7b0d73e570040da0b60e7dd0ca23c9fb
+    sfdc_customization: HOOK
+    allow: GET,HEAD,OPTIONS,PATCH
+    x-content-type-options: nosniff
+    x-dw-version-status: obsolete
+    cf-cache-status: DYNAMIC
+    cf-ray: a15843f9ac6245f1-CDG
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: c585080d-e8d2-4d5d-a9ec-3cb9570fda5e2401743#7b0d73e570040da0b60e7dd0ca23c9fb
+    x-message-id: c585080d-e8d2-4d5d-a9ec-3cb9570fda5e2401743#7b0d73e570040da0b60e7dd0ca23c9fb
+    x-request-id: 065c6218-296b-4ef2-b330-edeed1ebf26e
+    expires: Fri, 03 Jul 2026 19:23:35 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:35 GMT
+[19:23:35.400][127.0.0.1:35280] client connect
+127.0.0.1:56832: GET https://api.target2sell.com//user/indexes?uEM=c2782d1a732ea3273ca5d4a1f2a9460b60955c6f38bdcbd3029a39ff164671d8 HTTP/2.0
+    t2s-customer-id: RRICP1PGU4N8JO
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 16b
+    server: nginx
+    date: Fri, 03 Jul 2026 19:23:35 GMT
+    content-type: application/json
+    content-length: 16
+    x-content-type-options: nosniff
+    x-xss-protection: 0
+    cache-control: no-cache, no-store, max-age=0, must-revalidate
+    pragma: no-cache
+    expires: 0
+    strict-transport-security: max-age=31536000 ; includeSubDomains
+    x-frame-options: DENY
+    access-control-allow-origin: *
+    access-control-allow-credentials: true
+    access-control-allow-methods: DELETE, PUT, HEAD, OPTIONS, GET, POST
+    access-control-allow-headers: *
+    vary: Origin
+    via: 1.1 google
+    alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000
+[19:23:35.553][127.0.0.1:35280] server connect ws.batch.com:443 (193.70.103.218:443)
+[19:23:35.646][127.0.0.1:35294] client connect
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/customers/[CUSTOMER_ID_REDACTED]/product_lists?local=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << stream reset by client (CANCEL)
+[19:23:35.681][127.0.0.1:35302] client connect
+127.0.0.1:56826: GET https://apps.sephora.eu/Sales/V2/SalesHistory?customercode=[LOYALTY_CARD_REDACTED]&sort=true&locale=fr_FR HTTP/2.0
+    x-api-key: [API_KEY_REDACTED]
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 1.0k
+    x-oneagent-js-injection: true
+    server-timing: dtRpid;desc="1929434183", dtSInfo;desc="0"
+    content-type: application/json
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: b8b285b0-c2e0-48d9-8124-f7942b8e73bf617400#d4208f231bd09cc06845f4f748ac9a90
+    x-message-id: b8b285b0-c2e0-48d9-8124-f7942b8e73bf617400#d4208f231bd09cc06845f4f748ac9a90
+    x-request-id: 05c4ee2f-b1b8-4ab4-81ae-417544eb0740
+    expires: Fri, 03 Jul 2026 19:23:35 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:35 GMT
+    content-length: 1037
+    set-cookie: dtCookie=v_4_srv_20_sn_62B625A8D04332F081251B13CD13ACF7_perc_100000_ol_0_mul_1_app-3Aea7c4b59f27d43eb_0; Path=/; Domain=.hubsaleshistoryservices-aemdratjiq-ew.a.run.app
+[19:23:35.909][127.0.0.1:35314] client connect
+127.0.0.1:35280: POST https://ws.batch.com/a/3.2.3/tr/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 04e665f2-168a-4d0c-ba48-a68652598a75
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: 2HSJavkG4LLSYXJeK/obqfxpexY=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent 80+XMvK17i/qU1+69RzdzgVWevvyEjjdU9cs4ueAoAA=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 722
+ << 200 OK 200b
+    Content-Length: 200
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:23:35 GMT
+    X-Batch-Content-Cipher: 2
+[19:23:35.923][127.0.0.1:35302] server connect qdv4ot-inapps.appsflyersdk.com:443 (18.155.128.16:443)
+[19:23:35.923][127.0.0.1:35294] server connect qdv4ot-inapps.appsflyersdk.com:443 (18.155.128.16:443)
+[19:23:35.934][127.0.0.1:35314] server connect ws.batch.com:443 (91.121.46.111:443)
+[19:23:35.942][127.0.0.1:35302] Client TLS handshake failed. The client does not trust the proxy's certificate for qdv4ot-inapps.appsflyersdk.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:23:35.943][127.0.0.1:35302] client disconnect
+[19:23:35.943][127.0.0.1:35302] server disconnect qdv4ot-inapps.appsflyersdk.com:443 (18.155.128.16:443)
+[19:23:35.944][127.0.0.1:35294] Client TLS handshake failed. The client does not trust the proxy's certificate for qdv4ot-inapps.appsflyersdk.com (OpenSSL Error([('SSL routines', '', 'tls alert certificate unknown')]))
+[19:23:35.945][127.0.0.1:35294] client disconnect
+[19:23:35.945][127.0.0.1:35294] server disconnect qdv4ot-inapps.appsflyersdk.com:443 (18.155.128.16:443)
+127.0.0.1:35314: POST https://ws.batch.com/a/3.2.3/ats/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 5aefe057-69dd-44aa-aeae-5b7b0045e49b
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: HU1Z5Dp7wnwzmRrpGgQxC+VyGWY=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent c76Fvsm/Z0J/4QeplRq+iqGcbdP919M3d3qobvriqdY=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 616
+ << 200 OK 308b
+    Access-Control-Allow-Origin: *
+    Content-Length: 308
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:23:35 GMT
+    X-Batch-Content-Cipher: 2
+[19:23:35.975][127.0.0.1:56874] client disconnect
+[19:23:35.976][127.0.0.1:56874] server disconnect ws.batch.com:443 (87.98.137.78:443)
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/customers/[CUSTOMER_ID_REDACTED]/baskets?locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 1.8k
+    content-type: application/json;charset=UTF-8
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=21,cfOrigin;dur=10
+    accept-ranges: bytes
+    x-dw-request-base-id: nlLp6TcMSGoBAAB_
+    sfdc_customization: HOOK
+    allow: GET,HEAD,OPTIONS
+    x-content-type-options: nosniff
+    x-dw-version-status: obsolete
+    vary: accept-encoding
+    content-encoding: gzip
+    cf-cache-status: DYNAMIC
+    cf-ray: a15843fbf987d266-FRA
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: dfce8b82-9dea-4e1a-9175-1f2e8b35efc52307991#be807f1aae10487ce69013070822d274
+    x-message-id: dfce8b82-9dea-4e1a-9175-1f2e8b35efc52307991#be807f1aae10487ce69013070822d274
+    x-request-id: dc72ddc8-9923-4ac5-9a3c-a8eade5f534d
+    expires: Fri, 03 Jul 2026 19:23:35 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:35 GMT
+    content-length: 1835
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/stores/S5711?getservices=true&locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 3.5k
+    content-type: application/json;charset=UTF-8
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=5,cfOrigin;dur=25
+    accept-ranges: bytes
+    x-dw-request-base-id: VmMNRDcMSGoBAAB_
+    x-sf-cc-x-trace-id: f84d1d7f-e2c5-4960-8b12-c8f8046c2aa72355259#817ee9c118f8d534c726e6a2001266e5
+    sfdc_customization: HOOK
+    content-language: en-US
+    allow: GET,HEAD,OPTIONS
+    x-content-type-options: nosniff
+    x-dw-version-status: obsolete
+    vary: accept-encoding
+    content-encoding: gzip
+    cf-cache-status: DYNAMIC
+    cf-ray: a15843fcec271bec-CDG
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: f84d1d7f-e2c5-4960-8b12-c8f8046c2aa72355259#817ee9c118f8d534c726e6a2001266e5
+    x-message-id: f84d1d7f-e2c5-4960-8b12-c8f8046c2aa72355259#817ee9c118f8d534c726e6a2001266e5
+    x-request-id: c7ca5070-a138-4373-b4a7-c82c1f4adaa8
+    expires: Fri, 03 Jul 2026 19:23:35 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:35 GMT
+    content-length: 3592
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/customers/[CUSTOMER_ID_REDACTED]/orders?start=0&locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 85b
+    content-type: application/json;charset=UTF-8
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=4,cfOrigin;dur=91
+    x-dw-request-base-id: kLgfAzcMSGoBAAB_
+    x-sf-cc-x-trace-id: 569ca2ba-1eba-4706-8239-d177f160ba3e2438537#687f124a48a879bb0414ddbc046a4b88
+    sfdc_customization: HOOK
+    allow: GET,HEAD,OPTIONS
+    x-content-type-options: nosniff
+    x-dw-version-status: obsolete
+    cf-cache-status: DYNAMIC
+    content-encoding: gzip
+    cf-ray: a15843fd1ac5c46a-CDG
+    vary: Accept-Encoding
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: 569ca2ba-1eba-4706-8239-d177f160ba3e2438537#687f124a48a879bb0414ddbc046a4b88
+    x-message-id: 569ca2ba-1eba-4706-8239-d177f160ba3e2438537#687f124a48a879bb0414ddbc046a4b88
+    x-request-id: b404bd59-4058-47fa-89e5-9ef31e8664d8
+    expires: Fri, 03 Jul 2026 19:23:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:36 GMT
+    content-length: 85
+[19:23:36.047][127.0.0.1:35328] client connect
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/customers/[CUSTOMER_ID_REDACTED]/baskets?locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 1.8k
+    content-type: application/json;charset=UTF-8
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=11,cfOrigin;dur=18
+    accept-ranges: bytes
+    x-dw-request-base-id: 9FV1UzcMSGoBAAB_
+    sfdc_customization: HOOK
+    allow: GET,HEAD,OPTIONS
+    x-content-type-options: nosniff
+    x-dw-version-status: obsolete
+    vary: accept-encoding
+    content-encoding: gzip
+    cf-cache-status: DYNAMIC
+    cf-ray: a15843fd8a899748-FRA
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: 3243eea6-1327-4fe0-8c28-a2ec165f19022315766#6f38021894774b6557f095e455edaeb7
+    x-message-id: 3243eea6-1327-4fe0-8c28-a2ec165f19022315766#6f38021894774b6557f095e455edaeb7
+    x-request-id: e5c50be5-384d-415b-8014-268e0fc3941d
+    expires: Fri, 03 Jul 2026 19:23:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:36 GMT
+    content-length: 1835
+[19:23:36.125][127.0.0.1:35328] server connect ws.batch.com:443 (87.98.159.176:443)
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/baskets/a807ff4bb8008991c8cf54c69f?locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 11.2k
+    content-type: application/json;charset=UTF-8
+    content-length: 11516
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=5,cfOrigin;dur=251
+    accept-ranges: bytes
+    x-dw-request-base-id: nlJ46jgMSGoBAAB_
+    x-dw-resource-state: 504ebf1ab08122bfb7f5f1e042be140d7e101a1ded2806e238f329327a3b8523
+    etag: 504ebf1ab08122bfb7f5f1e042be140d7e101a1ded2806e238f329327a3b8523
+    x-sf-cc-x-trace-id: 8e16957f-ca06-4361-abbf-75d470e9ceae2460886#9e11d71a6c2144b23f01d3e200e79005
+    sfdc_customization: HOOK
+    allow: DELETE,GET,HEAD,OPTIONS,PATCH
+    x-content-type-options: nosniff
+    x-dw-version-status: obsolete
+    cf-cache-status: DYNAMIC
+    cf-ray: a15843ff7c13eba8-CDG
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: 8e16957f-ca06-4361-abbf-75d470e9ceae2460886#9e11d71a6c2144b23f01d3e200e79005
+    x-message-id: 8e16957f-ca06-4361-abbf-75d470e9ceae2460886#9e11d71a6c2144b23f01d3e200e79005
+    x-request-id: 7ad900ce-553d-422c-8f02-64d71a671f15
+    expires: Fri, 03 Jul 2026 19:23:36 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:36 GMT
+127.0.0.1:35328: POST https://ws.batch.com/a/3.2.3/tr/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: ab89aa8d-a270-4655-a7e3-eef9afb0935f
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: UJ9MsI0TdNgtBqt2cmR/QppkK/U=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent 1riNEhNU3/vI5yx0EB/P6pdwoYPo0m0yrzjWYuxQe0Y=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 1005
+ << 200 OK 200b
+    Content-Length: 200
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:23:36 GMT
+    X-Batch-Content-Cipher: 2
+[19:23:36.557][127.0.0.1:56886] client disconnect
+[19:23:36.558][127.0.0.1:56886] server disconnect ws.batch.com:443 (193.70.103.218:443)
+[19:23:36.559][127.0.0.1:35332] client connect
+[19:23:37.077][127.0.0.1:35332] server connect ws.batch.com:443 (91.121.62.61:443)
+127.0.0.1:35332: POST https://ws.batch.com/a/3.2.3/ats/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 0836809d-12bc-4c76-8ade-ef16f7887bd9
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: 8GKvQiXdJrA0kfROu0QUH7Fksxw=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent CqIZUMuQS0DqEwkyEq0jEEMrdpOJcCSLb3PVhJPWjPI=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 681
+ << 200 OK 308b
+    Access-Control-Allow-Origin: *
+    Content-Length: 308
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:23:37 GMT
+    X-Batch-Content-Cipher: 2
+127.0.0.1:56826: GET https://apps.sephora.eu/commerceCloud/shop/Sephora_FR/v18_3/baskets/a807ff4bb8008991c8cf54c69f?locale=fr-FR HTTP/2.0
+    user-agent: SephoraAndroid/3.14.50 (sdk_gphone_x86_64; Build/1780046000; fr.sephora.sephorafrance)
+    x-consumer-id: AOC-ANDROID-EME
+    x-consumer-version: 3.14.50
+    content-type: application/json
+    x-dw-client-id: 343edb11-54c4-4253-a480-ea6a832dbdd0
+    x-api-version: 1.0
+    channel: aoc
+    x-session-id: c5af12ec-b993-3ab2-97d2-fe4a966c4d69-1783106545594
+    x-api-key: [API_KEY_REDACTED]
+    x-shopper-token: [JWT_REDACTED]
+    accept-encoding: gzip
+ << HTTP/2.0 200 OK 11.2k
+    content-type: application/json;charset=UTF-8
+    content-length: 11516
+    server-timing: cfCacheStatus;desc="DYNAMIC"
+    server-timing: cfEdge;dur=26,cfOrigin;dur=922
+    accept-ranges: bytes
+    x-dw-request-base-id: 9FWjUzgMSGoBAAB_
+    x-dw-resource-state: 504ebf1ab08122bfb7f5f1e042be140d7e101a1ded2806e238f329327a3b8523
+    etag: 504ebf1ab08122bfb7f5f1e042be140d7e101a1ded2806e238f329327a3b8523
+    x-sf-cc-x-trace-id: 3243eea6-1327-4fe0-8c28-a2ec165f19022315770#8babf3aedddc30200daea76da8e7873d
+    sfdc_customization: HOOK
+    allow: DELETE,GET,HEAD,OPTIONS,PATCH
+    x-content-type-options: nosniff
+    x-dw-version-status: obsolete
+    cf-cache-status: DYNAMIC
+    cf-ray: a15843fefb6b7188-FRA
+    access-control-allow-origin: *
+    access-control-allow-headers: origin, x-requested-with, accept
+    access-control-max-age: 3628800
+    access-control-allow-methods: GET, PUT, POST, DELETE
+    x-trace-id: 3243eea6-1327-4fe0-8c28-a2ec165f19022315770#8babf3aedddc30200daea76da8e7873d
+    x-message-id: 3243eea6-1327-4fe0-8c28-a2ec165f19022315770#8babf3aedddc30200daea76da8e7873d
+    x-request-id: 068f85de-a670-40a3-b506-b5d4d04890e2
+    expires: Fri, 03 Jul 2026 19:23:37 GMT
+    cache-control: max-age=0, no-cache, no-store
+    pragma: no-cache
+    date: Fri, 03 Jul 2026 19:23:37 GMT
+[19:23:50.983][127.0.0.1:59578] client connect
+[19:23:51.258][127.0.0.1:59578] server connect ws.batch.com:443 (87.98.137.78:443)
+127.0.0.1:59578: POST https://ws.batch.com/a/3.2.3/atc/6076B62E3C76C9962B9F092BA9A826
+    X-Batch-Content-Cipher: 2
+    X-Batch-Nonce: 259c2e19-97ba-47c1-ace0-f8151b174d2b
+    X-Batch-Accept-Cipher: 2
+    UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    x-UserAgent: com.batch.android/3.2.3 fr.sephora.sephorafrance/3.14.50 (sdk_gphone_x86_64;Android 11)
+    Accept-Language: en-US-US
+    Accept-Encoding: gzip
+    Content-Type: application/json
+    Content-SHA1: rodZCinCFJof4tEjGwq6dVoxUMA=
+    X-Batch-Signature: SHA256 accept-encoding,accept-language,content-sha1,content-type,useragent,x-batch-accept-cipher,x-batch-content-cipher,x-batch-nonce,x-useragent VFp3m1ib5lAJ7O3EXo/EzvzS/4wr6ZCLdZD7y/7Xt0M=
+    User-Agent: Dalvik/2.1.0 (Linux; U; Android 11; sdk_gphone_x86_64 Build/RSR1.240422.006)
+    Host: ws.batch.com
+    Connection: Keep-Alive
+    Content-Length: 552
+ << 200 OK 264b
+    Access-Control-Allow-Origin: *
+    Content-Length: 264
+    Content-Type: application/octet-stream
+    Date: Fri, 03 Jul 2026 19:23:51 GMT
+    X-Batch-Content-Cipher: 2

@@ -1,0 +1,15 @@
+# CyberSource Flex SDK — Key Classes
+# Package: com.cybersource.flex.android
+# Source: JADX text search (234 results, minimal obfuscation)
+
+com.cybersource.flex.android.CaptureContext      -- initializes a secure card capture session
+com.cybersource.flex.android.TransientToken      -- short-lived token replacing raw card number (PAN)
+com.cybersource.flex.android.FlexException       -- payment error handling
+com.cybersource.flex.android.SadBuilder          -- Secure Acceptance Data builder
+
+# Notes:
+# - CyberSource Flex Microform is Visa's PCI-DSS compliant card tokenization SDK
+# - Card data is tokenized client-side; Sephora's own code never receives the raw PAN
+# - Only 4 JADX warnings for this SDK (vs 12,000+ for rest of app) — minimal obfuscation
+# - Dynatrace imports com.cybersource.flex.android.b — payment flows are monitored by Dynatrace RUM
+# - Payment flows were not tested during dynamic analysis

@@ -1,0 +1,19 @@
+# AppsFlyer SDK — Key Findings
+# Package: com.appsflyer.* / com.appsflyer.appsflyersdk.*
+# Source: JADX text search (3 results for "appsflyersdk")
+
+# Flutter plugin registration (com.appsflyer.internal.AFb1cSDK):
+FLUTTER("android_flutter", "com.appsflyer.appsflyersdk.AppsflyerSdkPlugin")
+
+# Hardcoded domain (com.appsflyer.internal.AFe1eSDK.getMonetization):
+return "appsflyersdk.com";
+
+# Privacy sandbox URL (com.appsflyer.internal.AFj1bSDK.AFAdRevenueData):
+return "https://privacy-sandbox.appsflyersdk.com";
+
+# Notes:
+# - Flutter plugin bridge confirms app uses Flutter components alongside native Android
+# - Class names heavily obfuscated (AFb1cSDK, AFe1eSDK, AFj1bSDK)
+# - All appsflyersdk.com endpoints failed TLS interception (Dart/native TLS stack)
+# - SDK purpose: mobile attribution — tracks which ad campaigns drove app installs/events
+# - Observed endpoints in log: qdv4ot-launches.appsflyersdk.com, qdv4ot-inapps.appsflyersdk.com

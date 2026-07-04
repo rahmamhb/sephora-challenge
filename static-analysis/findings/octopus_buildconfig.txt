@@ -1,0 +1,11 @@
+# Octopus Community SDK — Hardcoded Domain Constants
+# Source: com.octopuscommunity.sdk.BuildConfig (JADX)
+
+public static final String OCTOPUS_LINKS_HOST = "redir.8pus.io";
+public static final String OCTOPUS_SERVER_HOST = "api.8pus.io";
+
+# Notes:
+# - This SDK was unidentifiable from traffic alone (domain "8pus.io" gave no context)
+# - Package com.octopuscommunity.sdk confirmed via JADX text search
+# - Both endpoints failed TLS interception (native C++ TLS stack)
+# - Purpose: in-app community features (reviews, Q&A, social)
