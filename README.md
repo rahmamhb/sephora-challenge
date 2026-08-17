@@ -1,4 +1,4 @@
-# Sephora France — Traffic Interception Research
+# Sephora France: Traffic Interception Research
 
 Analysis of `fr.sephora.sephorafrance` (v3.14.50) for a research challenge.
 
@@ -19,7 +19,7 @@ Install the following before anything else:
 
 ---
 
-## Step 1 — Create the Android Emulator
+## Step 1: Create the Android Emulator
 
 ```bash
 # Create an AVD (API 30, x86_64, Pixel 4 skin, Google APIs image)
@@ -35,12 +35,12 @@ adb wait-for-device
 
 ---
 
-## Step 2 — Obtain and Install the Sephora APK
+## Step 2: Obtain and Install the Sephora APK
 
 > **The APK is not included in this repository** (excluded via `.gitignore` to comply with
 > Google Play redistribution terms). Obtain it using one of the options below.
 
-### Option A — Install from Google Play, then extract
+### Option A: Install from Google Play, then extract
 
 ```bash
 # On the emulator, install the app from the Play Store (requires Google account)
@@ -53,7 +53,7 @@ adb -s emulator-5554 pull \
   apk/original/base.apk
 ```
 
-### Option B — Install a locally obtained APK
+### Option B: Install a locally obtained APK
 
 ```bash
 # If you have base.apk and split_config.x86_64.apk already:
@@ -68,7 +68,7 @@ adb -s emulator-5554 install-multiple \
 
 ---
 
-## Step 3 — Install the mitmproxy CA Certificate (system-trusted)
+## Step 3: Install the mitmproxy CA Certificate (system-trusted)
 
 ```bash
 # On host: generate mitmproxy CA if not already present
@@ -90,7 +90,7 @@ adb -s emulator-5554 shell settings put global http_proxy 10.0.2.2:8083
 
 ---
 
-## Step 4 — Push the Frida Server
+## Step 4: Push the Frida Server
 
 ```bash
 # Download frida-server matching your frida-tools version from:
@@ -105,7 +105,7 @@ adb -s emulator-5554 shell "/data/local/tmp/frida-server &"
 
 ---
 
-## Step 5 — Configure Credentials
+## Step 5: Configure Credentials
 
 > **Required before running the automation script.**
 
@@ -122,7 +122,7 @@ via single-quote escaping; no manual modification is needed for those characters
 
 ---
 
-## Step 6 — Run a Capture Session
+## Step 6: Run a Capture Session
 
 ### Manual launch
 
@@ -150,7 +150,7 @@ credentials → submits login → polls for post-login UI confirmation.
 
 ---
 
-## Step 7 — Inspect Captures
+## Step 7: Inspect Captures
 
 ```bash
 # Open a saved capture in the mitmweb browser UI
@@ -198,6 +198,7 @@ sephora-challenge/
     ├── original/
     │   └── base.apk                 # NOT in git — see Step 2 for acquisition
     └── decompiled/                  # NOT in git — regenerate with jadx
+
 ---
 
 ## Frida Hook Reference
@@ -209,3 +210,5 @@ sephora-challenge/
 | `ssl_bypass.js` | `com.android.org.conscrypt.TrustManagerImpl.checkServerTrusted()` (×3 overloads) | Accept any TLS certificate (Layer 1) |
 | `ssl_bypass.js` | `javax.net.ssl.SSLContext.init()` | Inject permissive `TrustManager` (Layer 2) |
 | `ssl_bypass.js` | `okhttp3.CertificatePinner.check()` + `check$okhttp()` | Skip certificate hash comparison (Layer 3) |
+
+---
