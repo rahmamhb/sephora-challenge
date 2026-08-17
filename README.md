@@ -168,19 +168,6 @@ mitmweb -r mitmproxy/captures/sephora_20260627_155816.mitm \
 # Open in JADX GUI (requires a display; use DISPLAY=:1 on a headless lab machine)
 DISPLAY=:1 jadx-gui apk/original/base.apk &
 ```
-
-Key JADX searches to reproduce the report findings:
-
-| Search string | Finding |
-|--------------|---------|
-| `target2sell` | Target2Sell SDK package and parameter keys (`uEM`, `cID`, `tID`) |
-| `appsflyersdk` | AppsFlyer obfuscated classes (`AFb1cSDK`, `AFe1eSDK`, `AFj1bSDK`) |
-| `DeviceUtils` | Emulator detection method hooked by `launch_bypass.js` |
-| `8pus` | OctopusCommunity SDK (`com.octopuscommunity.sdk`) |
-| `tagcommander` | TagCommander + TrustCommander SDK constants |
-| `woosmap` | Woosmap geocoding API key and endpoint |
-| `CaptureContext` | CyberSource Flex payment tokenization SDK |
-
 ---
 
 ## Repository Structure
@@ -198,53 +185,19 @@ sephora-challenge/
 │   └── automate_login.py            # UIAutomator-based login automation
 ├── mitmproxy/
 │   ├── captures/
-│   │   ├── sephora_*.mitm           # binary capture files (open with mitmweb)
-│   │   └── mitm_*.log               # plaintext session summaries (anonymised)
-│   └── screenshots/                 # mitmweb screenshots
-│       ├── ocapi_profile_response.png # GET /customers/{id} response showing c_encryptedEmail
-│       └── target2sell_uem_request.png # GET api.target2sell.com/user/indexes?uEM=...
+│      ├── sephora_*.mitm           # binary capture files 
+│      └── mitm_*.log               # plaintext session summaries (
 ├── static-analysis/
 │   ├── sdk_inventory.md             # complete SDK list with Java packages + endpoints
 │   ├── findings/
-│   │   ├── appsflyer_flutter.txt    # AppsFlyer Flutter plugin + obfuscated classes
-│   │   ├── cybersource_classes.txt  # CyberSource Flex SDK class listing
-│   │   ├── octopus_buildconfig.txt  # OctopusCommunity hardcoded domain constants
-│   │   └── tagcommander_urls.txt    # TagCommander + TrustCommander hardcoded URLs
-│   └── screenshots/                 # JADX screenshots
-│       ├── appsflyer_obf.png        # obfuscated class listing (AFc1sSDK, AFd1aSDK…)
-│       ├── appsflyer.png            # Flutter bridge + AFb1cSDK/AFe1eSDK/AFj1bSDK domain strings
-│       ├── 8pus.png                 # OctopusCommunity OCTOPUS_SERVER_HOST constant
-│       ├── tagcommander_1.png       # TagCommander package overview + TCSDKConstants
-│       ├── tagcommander_2.png       # kTCServerSideURL constant (zoomed)
-│       ├── tagcommander_3.png       # TrustCommander TCConsent IAB_BASE_URL + consentURL
-│       └── tagcommander_4.png       # TrustCommander full URL constants (zoomed)
+│      ├── appsflyer_flutter.txt    # AppsFlyer Flutter plugin + obfuscated classes
+│      ├── cybersource_classes.txt  # CyberSource Flex SDK class listing
+│      ├── octopus_buildconfig.txt  # OctopusCommunity hardcoded domain constants
+│      └── tagcommander_urls.txt    # TagCommander + TrustCommander hardcoded URLs
 └── apk/
     ├── original/
     │   └── base.apk                 # NOT in git — see Step 2 for acquisition
     └── decompiled/                  # NOT in git — regenerate with jadx
-```
-
----
-
-## Privacy Notice — Provided Capture Files
-
-The plaintext log files (`mitmproxy/captures/*.log`) have been partially anonymised for
-public sharing:
-
-| Original value | Replaced with |
-|---------------|--------------|
-| Salesforce customer ID in API paths | `[CUSTOMER_ID_REDACTED]` |
-| Loyalty card number in Sales History URL | `[LOYALTY_CARD_REDACTED]` |
-
-The binary `.mitm` files retain all original session data and are provided for full
-research reproducibility. They contain personal data belonging to the researcher's own
-Sephora account and are shared here in the context of a privacy research project.
-JWT tokens in request headers (`x-shopper-token`) contain base64-encoded profile data
-(name, email, phone) and have since expired.
-
-The SHA-256 email hash (`c2782d1a...164671d8`) is preserved in the logs as it is the
-primary evidence for the cross-domain identity bridging finding (see §2 of the report).
-
 ---
 
 ## Frida Hook Reference
