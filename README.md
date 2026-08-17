@@ -200,15 +200,3 @@ sephora-challenge/
     └── decompiled/                  # NOT in git — regenerate with jadx
 
 ---
-
-## Frida Hook Reference
-
-| Script | Hook target | Purpose |
-|--------|------------|---------|
-| `launch_bypass.js` | `fr.sephora.aoc2.utils.DeviceUtils.isEmulator()` | Force-return `false` to pass emulator check |
-| `launch_bypass.js` | `ResourcesImpl`, `TypedArray`, `AppCompatResources` (×5) | Silence `NotFoundException` from missing xxhdpi split |
-| `ssl_bypass.js` | `com.android.org.conscrypt.TrustManagerImpl.checkServerTrusted()` (×3 overloads) | Accept any TLS certificate (Layer 1) |
-| `ssl_bypass.js` | `javax.net.ssl.SSLContext.init()` | Inject permissive `TrustManager` (Layer 2) |
-| `ssl_bypass.js` | `okhttp3.CertificatePinner.check()` + `check$okhttp()` | Skip certificate hash comparison (Layer 3) |
-
----
