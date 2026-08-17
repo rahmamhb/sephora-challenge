@@ -199,4 +199,4 @@ sephora-challenge/
     │   └── base.apk                 # NOT in git — see Step 2 for acquisition
     └── decompiled/                  # NOT in git — regenerate with jadx
 
----
+
